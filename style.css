@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+}
+
+nav{
+    height: 90px;
+    width: 85%;
+    position: fixed;
+    top: 0;
+    left: 90px;
+    background-color: salmon;
+    color: darkgreen;
+    box-sizing: border-box;
+    padding: 20px 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.BeanLogo{
+    height: 90px;
+    width: 90px;
+    background-image: url("Logo.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+}
+
+a{
+    color: royalblue;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+
+.buffer{
+    height: 90px;
+}
+
+.splash{
+
+    height: 700px;
+    width: 100%;
+    background-image: url("UpdatedBeansplash.jpg");
+    background-size: 100% 100%;
+}
+
+.pouroverpic{
+    height: 100px;
+    width: 200px;
+    background-image: url("PourOver.jpg");
+    background-size: 100% 100%;
+}
+
+.frenchpresspic{
+    height: 100px;
+    width: 200px;
+    background-image: url("french press.jpg");
+    background-size: 100% 100%;
+}
+
+.textContainer{
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    min-height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactBox{
+    width: 300px;
+    background-color: royalblue;
+    color: white;
+    min-height: 440px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+
+.lightPic{
+    height: 100px;
+    width: 100px;
+    background-image: url("lightRoast.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.lightPopUp{
+    position: fixed;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    top: 90px;
+    left: -400px;
+    height: 100px;
+    width: 250px;
+    background-color: royalblue;
+    transition: 1s;
+}
+
+.mediumPic{
+    height: 100px;
+    width: 100px;
+    background-image: url("mediumRoast.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.mediumPopUp{
+    position: fixed;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    top: 190px;
+    left: -400px;
+    height: 100px;
+    width: 250px;
+    background-color: royalblue;
+    transition: 1s;
+}
+
+.darkPic{
+    height: 100px;
+    width: 100px;
+    background-image: url("darkRoast.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.darkPopUp{
+    position: fixed;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    top: 290px;
+    left: -400px;
+    height: 100px;
+    width: 250px;
+    background-color: royalblue;
+    transition: 1s;
+}
+
+.decafPic{
+    height: 100px;
+    width: 100px;
+    background-image: url("decaf.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.decafPopUp{
+    position: fixed;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    top: 390px;
+    left: -400px;
+    height: 100px;
+    width: 250px;
+    background-color: royalblue;
+    transition: 1s;
+}
+
+.unroastedPic{
+    height: 100px;
+    width: 100px;
+    background-image: url("unroastedBeans.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.unroastedPopUp{
+    position: fixed;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    top: 490px;
+    left: -400px;
+    height: 100px;
+    width: 250px;
+    background-color: royalblue;
+    transition: 1s;
+}
+
+.about1{
+    min-height: 120px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: royalblue;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about2{
+    min-height: 120px;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.buffer2{
+    height: 60px;
+    background-color: royalblue;
+}
+
+
+footer {
+    position: fixed;
+    background-color: royalblue;
+    color: white;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
